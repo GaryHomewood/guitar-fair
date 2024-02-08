@@ -76,6 +76,7 @@ address a {
 .location {
   font-size: 1.3em;
   font-weight: bolder;
+  position: relative;
 }
 .exhibitors {
   display: flex;
@@ -123,4 +124,16 @@ hr {
   padding-right: 16px;
   text-decoration: none;
   width: 40px;
+}
+
+.postponed {
+  background: var(--lake-placid-blue);
+  border: 1px solid #004a5e;
+  color: ivory;
+  left: -25px;
+  opacity: 0.96;
+  padding: 16px 32px;
+  position: absolute;
+  top: 0px;
+  transform: rotate(-40deg) skewX(-4deg);
 }
